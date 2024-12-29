@@ -46,6 +46,7 @@ Test Accuracy: 89%
 
 
 _Loss:_
+
 Training Loss: 0.327
 
 Test Loss: 0.351
