@@ -16,3 +16,32 @@ The dataset used in this project is the IMDB Movie Reviews dataset, which is pub
 Reviews: Text data containing movie reviews.
 Labels: Binary classification labels indicating positive or negative sentiment (1 for positive, 0 for negative).
 You can access the dataset directly from the IMDB website or use the Keras dataset API, which conveniently provides the IMDB dataset in a pre-processed format.
+
+
+**Model Architecture**
+
+This sentiment analysis model is built using a deep learning architecture with the following components:
+
+Data Preprocessing: Tokenization and padding of the text data to create input sequences suitable for deep learning models.
+
+Embedding Layer: An embedding layer to convert words into dense vectors of fixed size.
+
+LSTM (Long Short-Term Memory): A type of recurrent neural network (RNN) used to capture sequential dependencies in the review text.
+
+Dense Layer: A fully connected layer for classification.
+
+Activation: A sigmoid activation function to output binary predictions.
+
+Optimizer: Adam optimizer used for training.
+
+**Results**
+
+The model was trained on the IMDB dataset and achieved an accuracy of 89% on the test data, indicating that the sentiment analysis approach is effective.
+
+Accuracy:
+Training Accuracy: 90.3%
+Test Accuracy: 89%
+Loss:
+Training Loss: 0.327
+Test Loss: 0.351
+The model shows promising results and could be further improved by tuning hyperparameters, exploring different architectures, or using pre-trained embeddings like GloVe.
