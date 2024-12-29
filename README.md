@@ -38,10 +38,16 @@ Optimizer: Adam optimizer used for training.
 
 The model was trained on the IMDB dataset and achieved an accuracy of 89% on the test data, indicating that the sentiment analysis approach is effective.
 
-Accuracy:
+_Accuracy:_
+
 Training Accuracy: 90.3%
+
 Test Accuracy: 89%
-Loss:
+
+
+_Loss:_
 Training Loss: 0.327
+
 Test Loss: 0.351
+
 The model shows promising results and could be further improved by tuning hyperparameters, exploring different architectures, or using pre-trained embeddings like GloVe.
