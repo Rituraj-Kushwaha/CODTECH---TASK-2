@@ -52,3 +52,6 @@ Training Loss: 0.327
 Test Loss: 0.351
 
 The model shows promising results and could be further improved by tuning hyperparameters, exploring different architectures, or using pre-trained embeddings like GloVe.
+
+![image](https://github.com/user-attachments/assets/1a3776aa-5d3f-46a8-bb06-abf39329699f)
+
